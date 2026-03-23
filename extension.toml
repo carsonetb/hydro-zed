@@ -1,0 +1,11 @@
+id = "hydro-lang"
+name = "Hydro Language Support"
+version = "0.0.1"
+schema_version = 1
+authors = ["Carson Bates (carsonetb) <me@carsonetb.com>"]
+description = "Language support for my programming language, Hydro, for Zed."
+repository = "https://github.com/carsonetb/hydro-zed"
+
+[grammars.rust]
+repository = "https://github.com/tree-sitter/tree-sitter-rust"
+commit = "8a1ccae7aaccdc11b04dbd803453e3e9cfd9159b"
